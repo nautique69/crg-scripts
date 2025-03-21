@@ -18,24 +18,8 @@ xset s off
 xset s noblank
 
 unclutter &
-chromium-browser http://scoreboard.local/views/wb/? \
-  --window-size=1920,1080 \
-  --window-position=0,0 \
-  --start-fullscreen \
-  --kiosk \
-  --incognito \
-  --noerrdialogs \
-  --disable-translate \
-  --no-first-run \
-  --fast \
-  --fast-start \
-  --disable-infobars \
-  --disable-features=TranslateUI \
-  --disk-cache-dir=/dev/null \
-  --overscroll-history-navigation=0 \
-  --disable-pinch
+chromium-browser http://scoreboard.local/views/wb/? --window-size=1920,1080 --window-position=0,0 --start-fullscreen --kiosk --incognito --noerrdialogs --disable-translate --no-first-run --fast --fast-start --disable-infobars --disable-features=TranslateUI --disk-cache-dir=/dev/null --overscroll-history-navigation=0 --disable-pinch
 EOF
-# chmod +x ./xinitrc
 
 sudo sed -i 's/want_memcheck=1/want_memcheck=0/' /usr/bin/chromium # no memory warning
 
