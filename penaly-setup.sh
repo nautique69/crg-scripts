@@ -15,7 +15,7 @@ cat > .xinitrc <<EOF
 xset -dpms
 xset s off
 xset s noblank
-https://github.com/nautique69/crg-scripts/blob/main/penaly-setup.sh
+
 unclutter &
 chromium-browser http://scoreboard.local/views/wb/? \
   --window-size=1920,1080 \
