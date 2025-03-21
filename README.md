@@ -1,1 +1,1 @@
-`wget https://github.com/nautique69/crg-scripts/raw/main/penaly-setup.sh -O - | sh`
+`wget https://github.com/nautique69/crg-scripts/raw/main/penalty-setup.sh -O - | sh`
