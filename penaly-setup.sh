@@ -37,3 +37,5 @@ EOF
 # chmod +x ./xinitrc
 
 sudo sed -i 's/want_memcheck=1/want_memcheck=0/' /usr/bin/chromium # no memory warning
+
+sudo reboot
