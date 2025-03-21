@@ -5,7 +5,7 @@ sudo apt-get install --no-install-recommends --yes xserver-xorg-video-all xserve
 
 cat << EOF >> .profile
 
-if [ -z "$DISPLAY" ] && [ "$(tty)" = /dev/tty1 ]
+if [ -z "$(DISPLAY)" ] && [ "$(tty)" = /dev/tty1 ]
 then
   startx
 fi
