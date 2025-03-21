@@ -36,4 +36,4 @@ chromium-browser http://scoreboard.local/views/wb/? \
 EOF
 # chmod +x ./xinitrc
 
-sed -i 's/want_memcheck=1/want_memcheck=0/' /usr/bin/chromium # no memory warning
+sudo sed -i 's/want_memcheck=1/want_memcheck=0/' /usr/bin/chromium # no memory warning
