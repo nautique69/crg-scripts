@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get install -y libgtk-2-dev python3-pip python3-venv
 
 mkdir ~/jamstats
-cd scoreboard
+cd ~/jamstats
 pip install jamstats
 cd ..
 
