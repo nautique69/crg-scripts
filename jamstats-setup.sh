@@ -3,7 +3,7 @@ sudo raspi-config nonint do_boot_behaviour B4
 sudo raspi-config nonint do_wayland W1
 
 sudo apt-get update
-sudo apt-get install -y libgtk-2-dev python3-pip python3-venv
+sudo apt-get install -y libgtk-3-dev python3-pip python3-venv
 
 mkdir ~/jamstats
 cd ~/jamstats
