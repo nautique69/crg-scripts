@@ -13,7 +13,7 @@ cat > run-jamstats.sh <<EOF
 #!/bin/bash
 sleep 20
 readsonly IP=\$(hostname -I)
-jamstats --scoreboardserver scoreboard.local:80 --mode-web --jamstatsip=\$IP --jamstatsport=8080
+jamstats --scoreboardserver scoreboard.local:80 --mode=web --jamstatsip=\$IP --jamstatsport=8080
 EOF
 chmod +x ./run-jamstats.sh
 
